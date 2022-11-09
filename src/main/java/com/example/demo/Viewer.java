@@ -4,7 +4,7 @@ public class Viewer {
 
     private String nickname;
     private int age;
-    private int filmCount;
+    private Cinema cinemaCount;
 
     public String getNickname() {
         return nickname;
@@ -22,18 +22,18 @@ public class Viewer {
         this.age = age;
     }
 
-    public int getFilmCount() {
-        return filmCount;
+    public Cinema getCinemaCount() {
+        return cinemaCount;
     }
 
-    public void setFilmCount(int filmCount) {
-        this.filmCount = filmCount;
+    public void setCinemaCount(Cinema cinemaCount) {
+        this.cinemaCount = cinemaCount;
     }
 
-    public Viewer(String nickname, int age, int filmCount) {
+    public Viewer(String nickname, int age, Cinema cinemaCount) {
         this.nickname = nickname;
         this.age = age;
-        this.filmCount = filmCount;
+        this.cinemaCount = cinemaCount;
     }
 
     public Viewer() {
